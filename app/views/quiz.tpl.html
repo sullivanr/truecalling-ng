@@ -1,0 +1,98 @@
+<div class="row">
+    <div class="large-12 columns text-center">
+        <h1 data-fittext data-fittext-min="9" data-fittext-max="80">WHAT’S YOUR TRUE CALLING?</h1>
+        <h2>Let’s find out.</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="large-12 columns quiz" ng-animate="'animate'" ng-switch="quiz.step">
+        <div class="question question1" ng-switch-when="0">
+            <h3 class="text-center">Question 1</h3>
+            <h4 class="text-center">In a social gathering you can be found:</h4>
+            <div class="row-collapse">
+                <div class="large-12 large-centered columns">
+                    <ul class="answers large-centered large-12 columns" data-equalizer>
+                        <li class="answer" data-equalizer-watch ng-click="quiz.step = 1; quiz.answer = a">
+                            <div class="answer-content">
+                                <h3>A</h3>
+                                <p>Having an in depth discussion of foreign affairs and celebrity entertainment</p>
+                            </div>
+                        </li>
+                        <li class="answer" data-equalizer-watch>
+
+                            <div class="answer-content">
+                                <h3>B</h3>
+                                <p>Hosting the party</p>
+                            </div>
+                        </li>
+                        <li class="answer" data-equalizer-watch>
+
+                            <div class="answer-content">
+                                <h3>C</h3>
+                                <p>Discussing the latest stats of Football, NRL, Soccer, Tennis – You live and breathe sport</p>
+                            </div>
+                        </li>
+                        <li class="answer" data-equalizer-watch>
+
+                            <div class="answer-content">
+                                <h3>D</h3>
+                                <p>Discussing your next business venture</p>
+                            </div>
+                        </li>
+                        <li class="answer" data-equalizer-watch>
+
+                            <div class="answer-content">
+                                <h3>E</h3>
+                                <p>Discussing your favourite new app, and influencing others to download it</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="question question2" ng-switch-when="1">
+            <h3 class="text-center">Question 2</h3>
+            <h4 class="text-center">Your Hobbies include:</h4>
+            <div class="row-collapse">
+                <div class="large-12 large-centered columns">
+                    <ul class="answers large-centered large-12 columns" data-equalizer>
+                        <li class="answer" data-equalizer-watch ng-click="quiz.step = 0; quiz.answer = a">
+                            <div class="answer-content">
+                                <h3>A</h3>
+                                <p>Drama and presentations</p>
+                            </div>
+                        </li>
+                        <li class="answer" data-equalizer-watch>
+
+                            <div class="answer-content">
+                                <h3>B</h3>
+                                <p>Planning events</p>
+                            </div>
+                        </li>
+                        <li class="answer" data-equalizer-watch>
+
+                            <div class="answer-content">
+                                <h3>C</h3>
+                                <p>Sport</p>
+                            </div>
+                        </li>
+                        <li class="answer" data-equalizer-watch>
+
+                            <div class="answer-content">
+                                <h3>D</h3>
+                                <p>Travelling and writing</p>
+                            </div>
+                        </li>
+                        <li class="answer" data-equalizer-watch>
+
+                            <div class="answer-content">
+                                <h3>E</h3>
+                                <p>Art & creative innovations</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
